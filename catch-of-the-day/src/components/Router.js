@@ -10,7 +10,7 @@ const Router = () => (
     <Switch>
       <Route exact path="/" component={StorePicker} />
       {/* Catch all Route to any store name */}
-      <Route exact path="/store/:storeID" component={App} />
+      <Route exact path="/store/:storeId" component={App} />
       {/* Last route for everything else, omit the path prop */}
       <Route component={NotFound} />
     </Switch>
